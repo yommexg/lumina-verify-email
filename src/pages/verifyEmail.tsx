@@ -27,7 +27,7 @@ const VerifyEmail: React.FC = () => {
         const res = await axios.get(
           `${baseURL}/api/auth/verify-email?token=${token}`
         );
-        console.log(res);
+        alert(res.data?.message);
         setStatus("success");
         setMessage(
           "✅ Your email has been verified. You can now return to the app and log in."
