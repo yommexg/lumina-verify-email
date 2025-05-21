@@ -84,7 +84,8 @@ const styles: { [key: string]: React.CSSProperties } = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    padding: "1rem",
+    paddingLeft: "1rem",
+    paddingRight: "1rem",
   },
   card: {
     backgroundColor: "white",
